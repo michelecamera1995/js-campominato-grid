@@ -61,7 +61,7 @@ function askUserDifficult() {
     return userChoice
 }
 
-// creo una cella (elemento HTML, non stringa)
+// creo una cella 
 function createCell() {
     const item = document.createElement('div');
     item.classList.add('cell');
